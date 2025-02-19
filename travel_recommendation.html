@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover your next dream destination with AI-powered travel recommendations">
+    <title>TravelBloom | Smart Travel Recommendations</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="main-header">
+        <nav class="container">
+            <div class="brand">
+                <img src="travel-logo.png" alt="TravelBloom logo" width="120">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content container">
+            <h1>Discover Your Next Adventure</h1>
+            <p>AI-powered travel recommendations tailored just for you</p>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Where would you like to go?">
+                <button id="searchBtn" class="cta-btn">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations" class="container">
+        <h2>Featured Destinations</h2>
+        <div id="resultsContainer" class="cards-container"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About TravelBloom</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="highlight">Founded in 2022, TravelBloom has revolutionized the way people discover new destinations. Our AI-powered platform analyzes millions of data points to create personalized travel recommendations just for you.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3>500K+</h3>
+                            <p>Happy Travelers</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>150+</h3>
+                            <p>Countries Covered</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>98%</h3>
+                            <p>Positive Reviews</p>
+                        </div>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To make world-class travel recommendations accessible to everyone through cutting-edge technology and local expertise.</p>
+                </div>
+                <div class="about-image">
+                    <img src="team-about.jpeg" alt="Our team working together">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-wrapper">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <img src="images/icon-location.svg" alt="Location icon">
+                        <p>11219 Impasse Bonnefin<br>Port-Louis, Pailles, Mauritius</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="images/icon-phone.svg" alt="Phone icon">
+                        <p>5803 3539</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="images/icon-email.svg" alt="Email icon">
+                        <p>contact@travelbloom.mu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="images/logo-white.png" alt="TravelBloom logo" width="120">
+                    <p>Making travel planning smarter</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a>
+                    <a href="#"><img src="images/icon-instagram.svg" alt="Instagram"></a>
+                    <a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 TravelBloom. Made in Moris. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

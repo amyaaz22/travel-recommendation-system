@@ -1,0 +1,26 @@
+{
+    "recommendations": [
+        {
+            "type": "country",
+            "name": "Australia",
+            "imageUrl": "images/australia.jpg",
+            "keywords": ["australia", "beach", "outback"],
+            "cities": [
+                {
+                    "name": "Sydney",
+                    "country": "Australia",
+                    "imageUrl": "images/sydney.jpg",
+                    "description": "Vibrant city with iconic opera house...",
+                    "keywords": ["sydney", "harbor"]
+                }
+            ]
+        },
+        {
+            "type": "beach",
+            "name": "Bora Bora",
+            "imageUrl": "images/bora-bora.jpg",
+            "description": "Crystal clear waters...",
+            "keywords": ["beach", "tropical"]
+        }
+    ]
+}
